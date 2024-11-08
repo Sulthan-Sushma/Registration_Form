@@ -1,0 +1,51 @@
+:root {
+    --primary-color: #d84e0f;
+    --white: #fff;
+    --b: #0d6efd;
+}
+
+html, body {
+    background-image: url("images/ma.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+}
+
+.card {
+    width: 400px;
+    min-height: 350px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.card-header > h3 {
+    color: var(--white);
+}
+
+.input-group > span {
+    background-color: var(--primary-color);
+    border: 0;
+    color: var(--white);
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.signup_btn, .registration_btn {
+    color: var(--white);
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.signup > a, .signin > a {
+    color: var(--primary-color);
+}
+
+.card-signin_card {
+    height: 300px;
+}
+
